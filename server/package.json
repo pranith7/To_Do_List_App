@@ -4,7 +4,6 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
     "frontend-build": "cd ../client && npm install && npm run build",
     "backend-build": "npm install",
     "build": "npm run frontend-build && npm run backend-build",
